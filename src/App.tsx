@@ -7,7 +7,7 @@ interface Post {
   title: string;
 }
 
-export default function Demo() {
+export default function App() {
   const [error, setError] = useState();
   const [isLoading, setIsLoading] = useState(false);
   const [posts, setPosts] = useState<Post[]>([]);
